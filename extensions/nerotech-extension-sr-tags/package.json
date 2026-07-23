@@ -1,0 +1,21 @@
+{
+  "name": "@nerotech/extension-sr-tags",
+  "version": "0.1.0",
+  "description": "OHIF extension: preserve IssuerOfPatientID from source images and control equipment + file meta tags on created DICOM SRs",
+  "author": "Nerotech Solutions LLC",
+  "license": "MIT",
+  "main": "src/index.js",
+  "module": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "keywords": [
+    "ohif-extension",
+    "dicom",
+    "dicom-sr"
+  ],
+  "peerDependencies": {
+    "@ohif/core": "*",
+    "dcmjs": "*"
+  }
+}
